@@ -1,10 +1,7 @@
 .container{
 	position: relative;
 }
-img{
-		max-width: 70%;
-		max-height: 70%;
-}
+
 .fond{
 	position: relative;
 }
