@@ -1,15 +1,15 @@
  
-	$(document).keypress(function(e){
-		if(e.keyCode == 100) {
+	$(document).keydown(function(e){
 
-			/*var marche {
-				left: "+=20px"
-			} */
+		if(e.keyCode == 39) {
+		$('.mario').animate({left: '+=20'});
+		}
 
+		else if(e.keyCode == 38) {
 
-			$('.mario').animate({left: '+=20'});
-
-			event.stopPropagation();
+		
+			$('.mario')
+			.animate({bottom: '+=150'}, 'slow').animate({bottom:'-=150'},'slow');
 		}
 	
 	});
