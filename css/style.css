@@ -2,9 +2,6 @@
 	position: relative;
 }
 
-.fond{
-	position: relative;
-}
 .mario{
 	max-width: 10%;
 	max-height: 10%;
@@ -13,6 +10,7 @@
 	left: 0px;
 }
 
+/* Permet de mettre Mario vers la gauche */
 .mario-g{
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
