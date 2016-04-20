@@ -1,0 +1,17 @@
+.container{
+
+}
+img{
+		max-width: 70%;
+		max-height: 70%;
+}
+.fond{
+	position: relative;
+}
+.mario{
+	max-width: 10%;
+	max-height: 10%;
+	position: absolute;
+	bottom: 140px;
+	left: 0px;
+}
