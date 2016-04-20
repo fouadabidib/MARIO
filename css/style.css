@@ -1,5 +1,6 @@
 .container{
 	position: relative;
+	background: url(img/fond.jpg) repeat-x;
 }
 
 .fond{
