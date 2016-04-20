@@ -19,8 +19,6 @@ $(function() {
 		}
 
 		else if(e.keyCode == 38) {
-
-		
 			$('.mario')
 			.animate({bottom: '+=150'}, 'slow').animate({bottom:'-=150'},'slow');
 		}
