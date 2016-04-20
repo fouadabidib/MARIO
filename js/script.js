@@ -1,6 +1,15 @@
+ 
+	$(document).keypress(function(e){
+		if(e.keyCode == 100) {
 
-	$("div").keyup(function(e){
-		if (e.keyCode == 39) {
-			alert("Vous avez tapé");
+			/*var marche {
+				left: "+=20px"
+			} */
+
+
+			$('.mario').animate({left: '+=20'});
+
+			event.stopPropagation();
 		}
+	
 	});
